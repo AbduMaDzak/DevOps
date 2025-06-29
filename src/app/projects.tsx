@@ -65,7 +65,7 @@ const CARS = [
 
 export function Projects() {
   return (
-    <section className="py-28 px-8">
+    <section id="mobil-dijual" className="py-28 px-8">
       <div className="container mx-auto mb-20 text-center">
         <Typography variant="h2" color="blue-gray" className="mb-4">
           Daftar Mobil Dijual

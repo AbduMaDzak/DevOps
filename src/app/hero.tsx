@@ -22,9 +22,12 @@ function Hero() {
           >
             Jual beli mobil baru dan bekas berkualitas, dari berbagai merek ternama seperti Toyota, Honda, Mitsubishi, dan lainnya. Dapatkan penawaran terbaik dan proses mudah hanya di KongDigong Auto.
           </Typography>
-          <Button color="blue" className="mt-4">
-            Lihat Daftar Mobil
-          </Button>
+          <Button color="blue" className="mt-4" onClick={() => {
+  const section = document.getElementById("mobil-dijual");
+  if (section) section.scrollIntoView({ behavior: "smooth" });
+}}>
+  Lihat Daftar Mobil
+</Button>
         </div>
         <Image
           width={1024}
