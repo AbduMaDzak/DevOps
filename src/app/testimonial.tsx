@@ -22,23 +22,23 @@ export function Testimonial() {
   const [active, setActive] = React.useState<TestimonialKey>(1);
 
   const testimonials: Record<TestimonialKey, TestimonialData> = {
-    1: {
-      title: "Frontend Web Development",
+        1: {
+      title: "Senior Sales Consultant",
       message:
-        "Working with this team was seamless! The website they delivered is fast, responsive, and beautifully designed. They truly understood our vision and brought it to life.",
-      name: "Sarah Johnson - Project Manager",
+        "Mengutamakan pelayanan ramah dan profesional, saya akan mendampingi Anda dalam setiap proses pembelian mobil dengan nyaman dan aman.",
+      name: "Rina Marlina",
     },
     2: {
-      title: "UI/UX & Product Design",
+      title: "Sales Executive - Toyota Specialist",
       message:
-        "Their design work is intuitive and elegant. We saw a major improvement in user engagement after the redesign. Highly recommended for any UI/UX project.",
-      name: "David Kim - Lead Designer",
+        "Dengan pengalaman lebih dari 5 tahun, saya siap membantu Anda menemukan mobil Toyota terbaik sesuai kebutuhan dan budget Anda.",
+      name: "Andi Pratama",
     },
     3: {
-      title: "Mobile App Development",
+      title: "Marketing & Trade-In Expert",
       message:
-        "I had the pleasure of working with Lily on a critical mobile app project. Her attention to detail and technical skills exceeded all expectations.",
-      name: "Michael - Technical Manager",
+        "Saya tidak hanya membantu Anda membeli mobil baru, tapi juga menilai mobil lama Anda dengan harga yang kompetitif.",
+      name: "Budi Santoso",
     },
   };
 
@@ -49,15 +49,13 @@ export function Testimonial() {
       <div className="container max-w-screen-lg mx-auto">
         <div className="container mx-auto mb-20 text-center">
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            My Team
+            Tim Penjualan Kami
           </Typography>
           <Typography
             variant="lead"
             className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12"
           >
-            Meet the talented professionals who power every project we build.
-            From design to development, each member brings expertise, passion,
-            and innovation to the table.
+            Kenali tim profesional kami yang siap membantu Anda dalam setiap langkah pembelian mobil. Komitmen kami adalah memberikan layanan terbaik untuk kepuasan Anda.
           </Typography>
         </div>
 

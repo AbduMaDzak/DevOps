@@ -14,20 +14,23 @@ function Hero() {
             color="blue-gray"
             className="mb-4 lg:text-5xl !leading-tight text-3xl"
           >
-            Welcome to KongDigong Web
+            Temukan Mobil Impian Anda di KongDigong Auto
           </Typography>
           <Typography
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-           We are a dedicated team of web developers committed to delivering innovative, reliable, and scalable digital solutions. From sleek websites to powerful web applications, we turn ideas into impactful online experiences.
+            Jual beli mobil baru dan bekas berkualitas, dari berbagai merek ternama seperti Toyota, Honda, Mitsubishi, dan lainnya. Dapatkan penawaran terbaik dan proses mudah hanya di KongDigong Auto.
           </Typography>
+          <Button color="blue" className="mt-4">
+            Lihat Daftar Mobil
+          </Button>
         </div>
         <Image
           width={1024}
           height={1024}
-          alt="team work"
-          src={`${getImagePrefix()}image/company.jpg`}
+          alt="showroom mobil"
+          src={`${getImagePrefix()}image/showroom.jpg`}
           className="h-[36rem] w-full rounded-xl object-cover"
         />
       </div>
